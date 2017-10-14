@@ -77,3 +77,11 @@ function convertFromRoman(num) {
   return sum;
 
 }
+
+
+function CFR() {
+
+  var a = document.getElementsByName('rom')[0].value;
+
+  document.getElementsByName('numoutput')[0].value = convertFromRoman(a);  
+}

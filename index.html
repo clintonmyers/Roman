@@ -3,12 +3,24 @@
   <head>
     <script src="CFR.js" type="text/javascript"></script>
     <script src="CTR.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-  	Input: <input type="text" name="text" id="text">
-  	<button type="button" onclick="window.alert(convertToRoman(document.getElementById('text')))">Convert To Roman Numeral</button>
-  	<button type="button" onclick="window.alert(convertFromRoman(document.getElementById('text')))">Convert From Roman Numeral</button>
-  </body>
+    <div class="video-background">
+    <div class="video-foreground">
+      <iframe src="https://www.youtube.com/embed/frE9rXnaHpE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="numdiv">
+    <label for="">Number Input: </label><input type="textbox" name="num"></input>
+    <button onClick="CTR()">Convert to Roman Numerals</button>
+    <label for="output">Roman Output: </label><input type="textbox" name="romoutput"></input>
+    <br>
+    <label for="">Roman Input: </label><input type="textbox" name="rom"></input>
+    <button onClick="CFR()">Convert to Number</button>
+    <label for="output">Number Output: </label><input type="textbox" name="numoutput"></input>
+  </div>
+</body>
 
 </html>

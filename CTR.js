@@ -70,3 +70,11 @@ function convertToRoman(num) {
   return sum;
 
 }
+
+
+function CTR() {
+
+  var a = document.getElementsByName('num')[0].value;
+
+  document.getElementsByName('romoutput')[0].value = convertToRoman(a);  
+}
